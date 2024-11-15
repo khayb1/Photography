@@ -1,1 +1,1 @@
-# react-navbar
+# Photography portfolio using react and tailwind css
