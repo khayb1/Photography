@@ -1,12 +1,13 @@
 import React from 'react'
+import { HireBtn } from './HireBtn'
 
-const mainHeader = () => {
+const mainHeader = ({header, text}) => {
   return (
    <>
-   <div className='text-center h'>
-        <h1>About Us</h1>
-        <p>I am Yaw Korenteng.</p>
-        <a href="contact"className='inline-block px-3 py-3 bg-green-500 hover:bg-green-700 text-white font-semibold rounded transition'>Available for hire</a>
+   <div className='text-center p-10 border-b-2 border-gray-50 md:m-0 '>
+        <h1 className='text-5xl'>{header}</h1>
+        <p className='text-lg font-thin py-4'>{text}</p>
+        <HireBtn/>
     </div>
    </>
   )

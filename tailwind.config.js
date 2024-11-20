@@ -5,9 +5,13 @@ export default {
      "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
-  },
+    extend: {
+      animation: {
+        'custom-bounce': 'pulse 5s  infinite',
+     },
   plugins: [    
   ],
 }
 
+}
+}

@@ -3,11 +3,12 @@ import "./App.css";
 import { Navbar } from "./components/Navbar";
 import { About, Contact, Home, Services } from "./components/pages";
 import { Gallery } from "./components/pages/Gallery";
+import { Footer } from "./components/footer";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -15,6 +16,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

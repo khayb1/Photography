@@ -1,5 +1,12 @@
 import React from "react";
-
+import MainHeader from "../MainHeader";
 export const Contact = () => {
-  return <h1>Contact</h1>;
+  return (
+    <>
+   <MainHeader 
+    header='Contact'
+    text='Feel free to contact me anytime to get beautiful pictures and also picture frames.'
+    />
+    </>
+  )
 };

@@ -1,6 +1,7 @@
 
 .active{
     background-color: #1d4ed8;
+    color: #fff;
 }
 
 nav {
@@ -10,7 +11,9 @@ nav {
     background-color: rgba(255, 255, 255, 0.9);
     color: black;
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
+    left: 0;
     width: 100%;
     z-index: 999;
 }
@@ -44,7 +47,8 @@ nav ul li a {
 }
 
 nav ul li a:not(.active):hover {
-    background-color:#172554 ;
+    background-color:#0232d1 ;
+    opacity: 0.5;
     color: #fff;
 }
 

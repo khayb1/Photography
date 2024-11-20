@@ -1,7 +1,15 @@
 import React from 'react'
-
+import MainHeader from "../MainHeader";
 export const Gallery = () => {
   return (
-    <h1>Gallery</h1>
+    <>  
+    <MainHeader
+      header='Gallery'
+      text='Explore amazing photos I have taken fromlovely clients. Feel free to browse through and download any you like'
+    >
+
+    </MainHeader>
+    </>
+
   )
 }
